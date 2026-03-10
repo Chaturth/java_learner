@@ -34,7 +34,7 @@ class SecondLarge {
         int[] num = {1, 2, 3, 4, 5};
         int max1, max2;
 
-        // Initialize first two values
+     
         if (num[0] > num[1]) {
             max1 = num[0];
             max2 = num[1];
@@ -43,7 +43,7 @@ class SecondLarge {
             max2 = num[0];
         }
 
-        // Check the rest of the array
+       
         for (int i = 2; i < num.length; i++) {
             if (num[i] > max1) {
                 max2 = max1;
